@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300"> <!-- Auto-refresh every 5 mins -->
+    <title>Day Trade Dashboard • November 30, 2025 16:14</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --green: #238636;
+            --red: #da3633;
+            --yellow: #f0883e;
+            --blue: #58a6ff;
+            --border: #30363d;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            background: linear-gradient(90deg, #58a6ff, #f0883e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-top: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+        th {
+            background: linear-gradient(90deg, #21262d, #161b22);
+            color: #58a6ff;
+            padding: 16px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        tr:hover {
+            background: #21262d;
+            transition: background 0.2s;
+        }
+        .buy {
+            background: rgba(35, 134, 54, 0.25) !important;
+            border-left: 4px solid var(--green);
+        }
+        .sell {
+            background: rgba(218, 54, 51, 0.25) !important;
+            border-left: 4px solid var(--red);
+        }
+        .hold {
+            opacity: 0.92;
+        }
+        .symbol {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #58a6ff;
+        }
+        .score {
+            font-weight: 800;
+            font-size: 1.3rem;
+        }
+        .trade {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .buy .trade { color: var(--green); }
+        .sell .trade { color: var(--red); }
+        .forecast {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+        .conf-int {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .chart-container {
+            position: relative;
+            height: 200px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Day Trade Dashboard</h1>
+            <div class="subtitle">Live Intraday Scanner • November 30, 2025 • 16:14 (Auto-Refresh: 5 min)</div>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                    <th>Score</th>
+                    <th>RSI</th>
+                    <th>Trade</th>
+                    <th>Stop $</th>
+                    <th>T1 $</th>
+                    <th>T2 $</th>
+                    <th>Forecast (1h / 2h / 3h / 4h)</th>
+                    <th>Chart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class='hold'><td>HLF</td><td>12.98</td><td>73.43</td><td>51.6</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>ARLO</td><td>14.98</td><td>73.25</td><td>28.79</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='sell'><td>BMNR</td><td>33.87</td><td>71.20</td><td>72.47</td><td>SELL</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>WPM</td><td>110.94</td><td>69.42</td><td>66.97</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>UEC</td><td>12.36</td><td>67.59</td><td>58.16</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='sell'><td>FBND</td><td>46.90</td><td>67.49</td><td>76.13</td><td>SELL</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>AR</td><td>36.90</td><td>65.14</td><td>61.72</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='sell'><td>ANRO</td><td>13.83</td><td>64.19</td><td>73.66</td><td>SELL</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>SRPT</td><td>21.33</td><td>62.42</td><td>15.55</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr><tr class='hold'><td>VEA</td><td>62.00</td><td>62.24</td><td>29.92</td><td>HOLD</td><td>nan</td><td>nan</td><td>nan</td><td><div>1h: -</div><div>2h: -</div><div>3h: -</div><div>4h: -</div></td></tr>
+            </tbody>
+        </table>
+
+        <footer>
+            Day Trade Mode • Prophet AI Forecasts • Generated November 30, 2025 at 16:14
+        </footer>
+    </div>
+    <script>
+        // Sample script to add interactive charts (replace with actual data fetching)
+        document.querySelectorAll('.chart-container').forEach((container, index) => {
+            const ctx = container.querySelector('canvas').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['1h', '2h', '3h', '4h'],  // Replace with real labels
+                    datasets: [{
+                        label: 'Forecast',
+                        data: [/* Replace with forecast data */],
+                        borderColor: 'rgb(88, 166, 255)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: false
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

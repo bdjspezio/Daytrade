@@ -1,0 +1,45 @@
+Symbol,Sector,Price,% Change,Score,RSI,RSI Zone,ATR%,EMA20,Trend,Sentiment Bar,Momentum,News Sentiment,Distance to EMA%,Exhaustion,Pullback Window,Breakout Window,Exp Ride Length,Vol Shape,Freshness Index,Rel Momentum,Why This Stock,Future Pred (5d),Risk Indicator,notes,Leadership Rank,Tier,Rank Change
+XOM,Energy,117.68,-1.35,78.54,59.6,Neutral,1.82,115.4526,Bullish,★★★★☆ →,4.35,0.0,1.93,No,Not expected,Not imminent,2.2,Increasing,0.25,4.35,Balanced metrics,118.7,Low,,3.0,3,New
+DE,Industrials,475.98,-0.05,74.35,55.25,Neutral,2.2,470.9058,Bullish,★★★★☆ →,3.04,0.0,1.08,No,Not expected,Not imminent,1.8,Increasing,0.01,3.04,Balanced metrics,478.87,Low,,7.0,3,New
+PFE,Healthcare,25.08,0.08,73.31,55.82,Neutral,2.69,24.7358,Bullish,★★★★☆ →,3.49,0.0,1.39,No,Not expected,Not imminent,1.8,Increasing,0.02,3.49,Balanced metrics,25.26,Low,,6.0,3,New
+GOOGL,Communication Services,285.02,3.11,68.29,61.72,Neutral,3.32,275.3493,Bullish,★★★★☆ →,0.46,0.0,3.51,No,Not expected,Not imminent,2.3,Increasing,0.14,0.46,Strong trend,285.28,Low,,11.0,3,New
+LLY,Healthcare,1021.7,-0.35,66.45,81.88,Overbought,3.45,925.9529,Bullish,★★★★☆ ↓,14.13,0.0,10.34,Possible,Likely soon,Not imminent,2.4,Increasing,0.25,14.13,Strong trend; Healthy momentum,1050.57,High,,1.0,3,New
+SLV,Unknown,45.47,-1.07,64.55,53.72,Neutral,2.7,45.0399,Neutral,★★★★☆ →,3.91,0.0,0.95,No,Not expected,Not imminent,1.9,Decreasing,0.03,3.91,Balanced metrics,45.83,Low,,5.0,3,New
+AAPL,Technology,267.46,-1.82,64.51,54.62,Neutral,2.05,267.2967,Neutral,★★★★☆ →,-0.49,0.0,0.06,No,Not expected,Not imminent,2.5,Decreasing,0.14,-0.49,Balanced metrics,267.2,Low,,14.0,3,New
+CAT,Industrials,552.05,-0.36,61.57,54.37,Neutral,3.99,550.5433,Neutral,★★★☆☆ →,-3.25,0.0,0.27,No,Not expected,Not imminent,2.3,Increasing,0.05,-3.25,Balanced metrics,548.46,Low,,19.0,3,New
+GDX,Unknown,74.95,-1.59,60.98,51.69,Neutral,3.57,74.5058,Neutral,★★★☆☆ →,5.12,0.0,0.6,No,Not expected,Not imminent,1.9,Decreasing,0.03,5.12,Healthy momentum,75.72,Low,,2.0,3,New
+COST,Consumer Defensive,912.59,-1.13,60.26,43.02,Neutral,1.59,923.6698,Bearish,★★★☆☆ →,-1.66,0.0,-1.2,No,Not expected,Not imminent,2.1,Increasing,0.0,-1.66,Balanced metrics,909.56,Low,,16.0,3,New
+CVX,Energy,154.82,-1.78,59.4,49.99,Neutral,1.97,154.8733,Neutral,★★★☆☆ →,0.51,0.0,-0.03,No,Not expected,Not imminent,2.3,Increasing,0.0,0.51,Balanced metrics,154.98,Low,,10.0,,New
+WMT,Consumer Defensive,102.95,0.46,59.25,49.03,Neutral,1.58,103.0686,Neutral,★★★☆☆ →,1.34,0.0,-0.12,No,Not expected,Not imminent,2.4,Decreasing,0.03,1.34,Balanced metrics,103.23,Low,,8.0,,New
+MSFT,Technology,507.49,-0.53,58.64,45.55,Neutral,2.14,512.1338,Neutral,★★★☆☆ →,-1.85,0.0,-0.91,No,Not expected,Not imminent,2.1,Increasing,0.05,-1.85,Balanced metrics,505.61,Low,,17.0,,New
+SPY,Unknown,665.67,-0.93,58.53,43.21,Neutral,1.26,674.5463,Bearish,★★★☆☆ →,-2.59,0.0,-1.32,No,Not expected,Not imminent,2.2,Increasing,0.05,-2.59,Balanced metrics,662.22,Low,,18.0,,New
+GLD,Unknown,371.65,-1.15,57.7,50.49,Neutral,1.78,373.2202,Neutral,★★★☆☆ →,0.78,0.0,-0.42,No,Not expected,Not imminent,2.2,Decreasing,0.03,0.78,Balanced metrics,372.23,Low,,9.0,,New
+NFLX,Communication Services,110.29,-0.83,55.77,41.54,Neutral,2.58,112.9823,Bearish,★★★☆☆ →,0.26,0.0,-2.38,No,Not expected,Not imminent,2.4,Decreasing,0.01,0.26,Balanced metrics,110.35,Low,,13.0,,New
+QQQ,Unknown,603.66,-0.85,54.51,43.53,Neutral,1.79,614.6686,Bearish,★★★☆☆ →,-4.5,0.0,-1.79,No,Not expected,Not imminent,2.3,Increasing,0.05,-4.5,Balanced metrics,598.23,Low,,22.0,,New
+CRWD,Technology,529.78,-1.45,53.0,52.04,Neutral,3.37,531.4085,Neutral,★★★☆☆ →,-4.01,0.0,-0.31,No,Not expected,Not imminent,2.0,Increasing,0.12,-4.01,Balanced metrics,525.53,Low,,21.0,,New
+ADBE,Technology,325.07,-1.82,52.47,37.18,Neutral,2.56,336.5734,Bearish,★★★☆☆ →,-3.67,0.0,-3.42,No,Not expected,Not imminent,2.2,Decreasing,0.0,-3.67,Balanced metrics,322.68,Low,,20.0,,New
+NKE,Consumer Cyclical,62.9,-1.98,51.87,41.36,Neutral,2.99,64.6667,Bearish,★★★☆☆ →,0.4,0.0,-2.73,No,Not expected,Not imminent,1.5,Increasing,0.0,0.4,Balanced metrics,62.95,Low,,12.0,,New
+FSLR,Technology,253.54,0.18,47.8,52.53,Neutral,5.65,253.839,Neutral,★★★☆☆ →,-4.58,0.0,-0.12,No,Not expected,Not imminent,1.6,Increasing,0.08,-4.58,Balanced metrics,251.22,High,,23.0,,-
+UBER,Technology,92.11,0.53,45.87,43.63,Neutral,3.29,93.7957,Bearish,★★★☆☆ →,-7.63,0.0,-1.8,No,Not expected,Not imminent,1.9,Increasing,0.02,-7.63,Balanced metrics,90.7,Low,,31.0,,-
+AVGO,Technology,342.65,0.06,43.21,45.36,Neutral,4.16,351.7877,Bearish,★★★☆☆ →,-5.49,0.0,-2.6,No,Not expected,Not imminent,2.1,Increasing,0.05,-5.49,Balanced metrics,338.89,Low,,26.0,,-
+MRNA,Healthcare,24.76,-0.04,42.82,45.55,Neutral,6.78,25.5272,Bearish,★★★☆☆ →,-0.6,0.0,-3.01,No,Not expected,Not imminent,1.8,Increasing,0.0,-0.6,Balanced metrics,24.73,High,,15.0,,-
+AMD,Technology,240.52,-2.55,42.25,51.98,Neutral,5.91,241.7905,Neutral,★★★☆☆ →,-7.37,0.0,-0.53,No,Not expected,Not imminent,2.0,Increasing,0.05,-7.37,Balanced metrics,236.97,High,,29.0,,-
+IWM,Unknown,232.76,-1.99,41.01,35.76,Neutral,1.97,242.0566,Bearish,★★★☆☆ →,-5.17,0.0,-3.84,No,Not expected,Not imminent,2.0,Increasing,0.03,-5.17,Balanced metrics,230.35,Low,,24.0,,-
+QCOM,Technology,166.75,-4.16,40.56,43.99,Neutral,3.68,172.9057,Bearish,★★★☆☆ →,-7.73,0.0,-3.56,No,Not expected,Not imminent,2.1,Decreasing,0.05,-7.73,Balanced metrics,164.17,Low,,32.0,,-
+CRM,Technology,237.03,-2.72,39.94,40.8,Neutral,3.14,246.4366,Bearish,★★★☆☆ →,-9.3,0.0,-3.82,No,Not expected,Not imminent,1.9,Decreasing,0.0,-9.3,Balanced metrics,232.62,Low,,34.0,,-
+PANW,Technology,202.9,-1.14,39.43,38.89,Neutral,2.81,211.4335,Bearish,★★★☆☆ →,-7.45,0.0,-4.04,No,Not expected,Not imminent,2.1,Increasing,0.05,-7.45,Balanced metrics,199.88,Low,,30.0,,-
+AMZN,Consumer Cyclical,232.87,-0.78,37.68,48.26,Neutral,3.62,236.632,Bearish,★★★☆☆ →,-8.32,0.0,-1.59,No,Not expected,Not imminent,1.9,Increasing,0.07,-8.32,Balanced metrics,229.0,Low,,33.0,,-
+NVDA,Technology,186.6,-1.88,34.53,46.4,Neutral,4.59,191.4464,Bearish,★★☆☆☆ →,-9.8,0.0,-2.53,No,Not expected,Not imminent,1.9,Increasing,0.05,-9.8,Balanced metrics,182.94,Low,,35.0,,-
+ENPH,Technology,27.53,-4.01,31.51,34.13,Neutral,8.0,31.6243,Bearish,★★☆☆☆ →,-6.71,0.0,-12.95,No,Not expected,Not imminent,1.7,Increasing,0.0,-6.71,Balanced metrics,27.16,High,,28.0,,-
+SEDG,Technology,34.27,-5.28,29.64,43.87,Neutral,12.56,38.1072,Bearish,★★☆☆☆ →,4.26,0.0,-10.07,No,Not expected,Not imminent,2.2,Increasing,0.12,4.26,Balanced metrics,34.56,High,,4.0,,-
+INTC,Technology,34.71,-2.28,28.94,40.67,Neutral,4.64,37.2468,Bearish,★★☆☆☆ →,-12.13,0.0,-6.81,No,Not expected,Not imminent,1.9,Decreasing,0.05,-12.13,Balanced metrics,33.87,Low,,36.0,,-
+ZS,Technology,294.92,-1.51,27.83,38.16,Neutral,3.8,314.8135,Bearish,★★☆☆☆ →,-12.3,0.0,-6.32,No,Not expected,Not imminent,2.2,Increasing,0.07,-12.3,Balanced metrics,287.66,Low,,37.0,,-
+SHOP,Technology,139.93,-4.18,25.63,32.66,Neutral,5.86,157.3636,Bearish,★★☆☆☆ →,-19.09,0.0,-11.08,No,Not expected,Not imminent,2.1,Increasing,0.05,-19.09,Balanced metrics,134.59,High,,40.0,,-
+PLTR,Technology,171.25,-1.59,23.82,42.24,Neutral,6.54,182.9825,Bearish,★★☆☆☆ →,-17.34,0.0,-6.41,No,Not expected,Not imminent,2.3,Increasing,0.07,-17.34,Balanced metrics,165.31,High,,39.0,,-
+META,Communication Services,602.01,-1.22,22.94,25.53,Oversold,4.04,652.1516,Bearish,★★☆☆☆ ↑,-5.6,0.0,-7.69,No,Not expected,Not imminent,2.2,Increasing,0.01,-5.6,Balanced metrics,595.27,Low,,27.0,,-
+TSLA,Consumer Cyclical,408.92,1.13,22.6,42.64,Neutral,5.55,432.8454,Bearish,★★☆☆☆ →,-12.69,0.0,-5.53,No,Not expected,Not imminent,1.9,Increasing,0.0,-12.69,Balanced metrics,398.54,High,,38.0,,-
+HD,Consumer Cyclical,358.03,-1.19,21.61,27.07,Oversold,2.08,375.1301,Bearish,★★☆☆☆ ↑,-5.37,0.0,-4.56,No,Not expected,Not imminent,1.8,Increasing,0.0,-5.37,Balanced metrics,354.18,Low,,25.0,,-
+COIN,Financial Services,263.95,-7.06,18.85,32.91,Neutral,7.92,312.5154,Bearish,★★☆☆☆ →,-20.12,0.0,-15.54,No,Not expected,Not imminent,1.8,Increasing,0.01,-20.12,Balanced metrics,253.33,High,,41.0,,-
+SMCI,Technology,34.1,-6.37,17.1,27.11,Oversold,8.14,43.164,Bearish,★★☆☆☆ ↑,-32.81,0.0,-21.0,No,Not expected,Not imminent,1.9,Decreasing,0.01,-32.81,Balanced metrics,31.86,High,,44.0,,-
+CELH,Consumer Defensive,40.16,-6.15,15.85,24.19,Oversold,9.28,51.0695,Bearish,★★☆☆☆ ↑,-32.22,0.0,-21.36,No,Not expected,Not imminent,2.4,Increasing,0.03,-32.22,Balanced metrics,37.57,High,,43.0,,-
+MSTR,Technology,195.42,-2.17,11.81,24.35,Oversold,8.19,247.8345,Bearish,★☆☆☆☆ ↑,-26.16,0.0,-21.15,No,Not expected,Not imminent,1.8,Increasing,0.0,-26.16,Balanced metrics,185.2,High,,42.0,,-

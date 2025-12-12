@@ -1,0 +1,12 @@
+TURN ON:
+source sklearn_env/bin/activate
+source myenv/bin/activate  <----
+
+
+TURN OFF:
+deactivate
+
+
+
+
+

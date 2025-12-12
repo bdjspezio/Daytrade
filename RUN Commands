@@ -1,0 +1,26 @@
+VM ACTIVATE:
+
+source myenv/bin/activate
+
+
+deactivate      turn off
+
+THEN RUN
+
+python3 daytrade.py ==symbols symbolsFAST.txt
+
+python3 daytrade.py --symbols symbolsFAST.txt
+
+python3 daytrade.py --symbols symbols50.txt
+
+python3 daytrade.py --symbols symbols100.txt
+
+python3 daytrade.py --symbols symbolsALL.txt
+ 
+python3 daytrade.py --symbols symbolsMED.txt
+
+==========================================
+
+BACKTEST: NA right now
+
+python3 run1.py --backtest

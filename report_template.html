@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300"> <!-- Auto-refresh every 5 mins -->
+    <title>Day Trade Dashboard • {{DATE}} {{TIME}}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --green: #238636;
+            --red: #da3633;
+            --yellow: #f0883e;
+            --blue: #58a6ff;
+            --border: #30363d;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            background: linear-gradient(90deg, #58a6ff, #f0883e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-top: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+        th {
+            background: linear-gradient(90deg, #21262d, #161b22);
+            color: #58a6ff;
+            padding: 16px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        tr:hover {
+            background: #21262d;
+            transition: background 0.2s;
+        }
+        .buy {
+            background: rgba(35, 134, 54, 0.25) !important;
+            border-left: 4px solid var(--green);
+        }
+        .sell {
+            background: rgba(218, 54, 51, 0.25) !important;
+            border-left: 4px solid var(--red);
+        }
+        .hold {
+            opacity: 0.92;
+        }
+        .symbol {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #58a6ff;
+        }
+        .score {
+            font-weight: 800;
+            font-size: 1.3rem;
+        }
+        .trade {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .buy .trade { color: var(--green); }
+        .sell .trade { color: var(--red); }
+        .forecast {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+        .conf-int {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .chart-container {
+            position: relative;
+            height: 200px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Day Trade Dashboard</h1>
+            <div class="subtitle">Live Intraday Scanner • {{DATE}} • {{TIME}} (Auto-Refresh: 5 min)</div>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                    <th>Score</th>
+                    <th>RSI</th>
+                    <th>Trade</th>
+                    <th>Stop $</th>
+                    <th>T1 $</th>
+                    <th>T2 $</th>
+                    <th>Forecast (1h / 2h / 3h / 4h)</th>
+                    <th>Chart</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{TABLE_ROWS}}
+            </tbody>
+        </table>
+
+        <footer>
+            Day Trade Mode • Prophet AI Forecasts • Generated {{DATE}} at {{TIME}}
+        </footer>
+    </div>
+    <script>
+        // Sample script to add interactive charts (replace with actual data fetching)
+        document.querySelectorAll('.chart-container').forEach((container, index) => {
+            const ctx = container.querySelector('canvas').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['1h', '2h', '3h', '4h'],  // Replace with real labels
+                    datasets: [{
+                        label: 'Forecast',
+                        data: [/* Replace with forecast data */],
+                        borderColor: 'rgb(88, 166, 255)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: false
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

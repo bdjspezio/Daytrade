@@ -1,0 +1,82 @@
+5. Automate & ScheduleUse cron (Linux/Mac) or Task Scheduler (Windows) to run daily: crontab -e and add 0 9 * * * /path/to/python3 /path/to/run1.py --symbols symbolsALL.txt.
+Email results using smtplib or integrate with Telegram/Slack for alerts on high-score stocks.
+
+6. Customize & IterateTweak WEIGHTS (e.g., increase "macd" to 15 for more momentum focus).
+Add alerts: If Score >80, print/email "Buy Alert: {symbol}".
+Test on historical data: Download older periods and backtest.
+
+If you run into issues or want to add specific features (e.g., email alerts), share the error/output!
+
+
+CHAT GPT SUGGESTED:
+
+4) How to schedule to run at 07:00 Mountain Time (America/Denver)
+
+You asked to run at 07:00 Mountain Time and email. Your server likely runs local time; confirm host timezone. Linux Mint default may be system local timezone. If the headless box is in Mountain Time, simplest is cron:
+
+Cron (crontab)
+
+Edit crontab for the user that runs myenv:
+
+crontab -e
+# add line to run daily at 07:00 (server must be set to Mountain Time)
+0 7 * * * /home/ben/myenv/bin/python /path/to/GXS_Project/run_report.py --symbols /path/to/symbolsALL.txt --export-dir /path/to/exports --email >> /path/to/exports/cron_run.log 2>&1
+
+
+If your server is in a different timezone, use TZ in cron or use systemd timer (recommended).
+
+systemd timer (recommended for robustness)
+
+Create /etc/systemd/system/gxs-report.service:
+
+[Unit]
+Description=GXS daily report
+
+[Service]
+Type=oneshot
+User=ben
+WorkingDirectory=/home/ben/Desktop/GXS\ Project
+ExecStart=/home/ben/myenv/bin/python /home/ben/Desktop/GXS\ Project/run_report.py --symbols symbolsALL.txt --export-dir exports --email
+
+
+Create /etc/systemd/system/gxs-report.timer:
+
+[Unit]
+Description=Run GXS report daily at 07:00 America/Denver
+
+[Timer]
+OnCalendar=*-*-* 07:00:00
+# If server timezone differs, you can use Persistent=true and set TimeZone=America/Denver via timedatectl or use systemd's timezone-aware calendar features
+
+[Install]
+WantedBy=timers.target
+
+
+Then enable & start:
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now gxs-report.timer
+sudo systemctl status gxs-report.timer
+
+
+(If your server is not set to Mountain Time and you want to use OnCalendar with zone: OnCalendar=TZ=America/Denver:*-*-* 07:00:00)
+
+5) Quick notes, improvements & next steps I recommend (prioritized)
+
+SMTP security: use environment variables for credentials or a secrets manager. Add retries on email send and better logging.
+
+SQLite cache: store historical enrichments in a sqlite DB so you can compute freshness, avoid repeated downloads, and enable delta-based updates.
+
+Parallel downloads: your batch_download_symbols uses threads — consider processes or async for heavy loads and implement a per-batch rate limiter to avoid yfinance throttling.
+
+Backtester integration: keep your run_backtest() but feed it the same quantum scoring logic to evaluate score thresholds — you already had that; I can add improved metrics (Sharpe, Win rate) next.
+
+Dashboard front-end: later replace static HTML with a tiny Flask app or a static site generator plus saved CSVs if you prefer S3 hosting.
+
+Unit tests & CI: add small tests for compute_rsi, forecast_price_multi and enrich_from_df to avoid regressions.
+
+Logging: switch print() to Python logging with rotating file handler for production traceability.
+
+Monitoring: add an email or webhook on failures > critical (script exception / SMTP failure).
+
+

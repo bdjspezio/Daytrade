@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Scan Results</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #121212;
+        color: #e0e0e0;
+        margin: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+    }
+
+    th {
+        background: #1e1e1e;
+        padding: 10px;
+        border-bottom: 2px solid #444;
+        cursor: pointer;
+    }
+
+    td {
+        padding: 10px;
+        border-bottom: 1px solid #333;
+    }
+
+    /* --- COLOR TAGS --- */
+    tr.buy {
+        background: rgba(0, 180, 0, 0.25);
+    }
+
+    tr.hold {
+        background: rgba(255, 197, 0, 0.20);
+    }
+
+    tr.sell {
+        background: rgba(255, 0, 0, 0.25);
+    }
+
+    tr:hover {
+        filter: brightness(1.2);
+    }
+
+    .conf-int {
+        font-size: 13px;
+        color: #ccc;
+    }
+</style>
+
+</head>
+<body>
+
+<h1>Stock Scan Results</h1>
+
+<table id="results">
+    <thead>
+        <tr>
+            <th>Ticker</th>
+            <th>Rating</th>
+            <th>6M Forecast</th>
+            <th>Confidence Interval</th>
+            <th>ATR%</th>
+            <th>RSI</th>
+            <th>SMA21</th>
+            <th>Trendline Dist%</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr class='sell'><td>LLY</td><td>1060.07</td><td>77.98</td><td>86.99</td><td>SELL</td><td>-4.62</td><td>3.08</td><td>6.16</td><td><div>3d: 1096.09 <span class='conf-int'>1065.59 - 1127.28</span></div><div>5d: 1108.17 <span class='conf-int'>1079.27 - 1141.51</span></div><div>7d: 1109.09 <span class='conf-int'>1082.26 - 1142.57</span></div><div>14d: 1113.74 <span class='conf-int'>1083.59 - 1143.55</span></div></td></tr><tr class='hold'><td>WMT</td><td>105.55</td><td>70.54</td><td>61.09</td><td>HOLD</td><td>-3.14</td><td>2.09</td><td>4.18</td><td><div>3d: 107.46 <span class='conf-int'>105.67 - 109.41</span></div><div>5d: 108.92 <span class='conf-int'>107.06 - 110.88</span></div><div>7d: 109.8 <span class='conf-int'>107.77 - 111.7</span></div><div>14d: 112.23 <span class='conf-int'>110.29 - 114.28</span></div></td></tr><tr class='hold'><td>DE</td><td>489.12</td><td>60.89</td><td>73.21</td><td>HOLD</td><td>-3.21</td><td>2.14</td><td>4.28</td><td><div>3d: 480.89 <span class='conf-int'>469.9 - 492.12</span></div><div>5d: 481.62 <span class='conf-int'>471.21 - 493.63</span></div><div>7d: 482.52 <span class='conf-int'>472.85 - 494.58</span></div><div>14d: 482.23 <span class='conf-int'>471.37 - 492.97</span></div></td></tr><tr class='hold'><td>GOOGL</td><td>295.44</td><td>55.15</td><td>66.88</td><td>HOLD</td><td>-5.55</td><td>3.7</td><td>7.4</td><td><div>3d: 290.1 <span class='conf-int'>285.64 - 294.97</span></div><div>5d: 291.86 <span class='conf-int'>287.23 - 296.75</span></div><div>7d: 293.23 <span class='conf-int'>288.16 - 297.96</span></div><div>14d: 302.0 <span class='conf-int'>297.16 - 307.09</span></div></td></tr><tr class='sell'><td>SLV</td><td>45.58</td><td>43.65</td><td>49.53</td><td>SELL</td><td>-4.32</td><td>2.88</td><td>5.76</td><td><div>3d: 47.72 <span class='conf-int'>46.81 - 48.66</span></div><div>5d: 48.05 <span class='conf-int'>47.18 - 49.05</span></div><div>7d: 48.1 <span class='conf-int'>47.3 - 49.11</span></div><div>14d: 48.0 <span class='conf-int'>47.09 - 48.89</span></div></td></tr><tr class='hold'><td>XOM</td><td>116.92</td><td>42.74</td><td>51.44</td><td>HOLD</td><td>-2.91</td><td>1.94</td><td>3.88</td><td><div>3d: 116.99 <span class='conf-int'>114.7 - 119.5</span></div><div>5d: 116.74 <span class='conf-int'>114.35 - 119.26</span></div><div>7d: 116.19 <span class='conf-int'>113.58 - 118.62</span></div><div>14d: 112.95 <span class='conf-int'>110.46 - 115.57</span></div></td></tr><tr class='sell'><td>ADBE</td><td>323.18</td><td>38.52</td><td>42.79</td><td>SELL</td><td>-3.53</td><td>2.35</td><td>4.7</td><td><div>3d: 332.39 <span class='conf-int'>319.06 - 346.02</span></div><div>5d: 335.66 <span class='conf-int'>323.03 - 350.23</span></div><div>7d: 335.65 <span class='conf-int'>323.92 - 350.28</span></div><div>14d: 336.2 <span class='conf-int'>323.03 - 349.22</span></div></td></tr><tr class='sell'><td>COIN</td><td>240.92</td><td>38.43</td><td>20.9</td><td>SELL</td><td>-12.24</td><td>8.16</td><td>16.32</td><td><div>3d: 250.21 <span class='conf-int'>233.4 - 268.58</span></div><div>5d: 250.77 <span class='conf-int'>233.33 - 269.22</span></div><div>7d: 249.32 <span class='conf-int'>230.22 - 267.15</span></div><div>14d: 252.4 <span class='conf-int'>234.15 - 271.59</span></div></td></tr><tr class='sell'><td>SMCI</td><td>32.38</td><td>37.29</td><td>24.32</td><td>SELL</td><td>-12.75</td><td>8.5</td><td>17.0</td><td><div>3d: 37.48 <span class='conf-int'>33.71 - 41.33</span></div><div>5d: 39.05 <span class='conf-int'>35.48 - 43.17</span></div><div>7d: 39.49 <span class='conf-int'>36.17 - 43.62</span></div><div>14d: 42.14 <span class='conf-int'>38.42 - 45.83</span></div></td></tr><tr class='hold'><td>COST</td><td>896.63</td><td>36.45</td><td>34.62</td><td>HOLD</td><td>-2.58</td><td>1.72</td><td>3.44</td><td><div>3d: 916.6 <span class='conf-int'>900.05 - 934.7</span></div><div>5d: 922.06 <span class='conf-int'>904.89 - 940.23</span></div><div>7d: 925.51 <span class='conf-int'>906.7 - 943.07</span></div><div>14d: 941.57 <span class='conf-int'>923.6 - 960.47</span></div></td></tr><tr class='sell'><td>GLD</td><td>375.37</td><td>34.89</td><td>51.71</td><td>SELL</td><td>-2.55</td><td>1.7</td><td>3.4</td><td><div>3d: 383.81 <span class='conf-int'>378.35 - 389.39</span></div><div>5d: 385.3 <span class='conf-int'>380.12 - 391.27</span></div><div>7d: 385.65 <span class='conf-int'>380.85 - 391.64</span></div><div>14d: 384.57 <span class='conf-int'>379.18 - 389.91</span></div></td></tr><tr class='sell'><td>ENPH</td><td>27.14</td><td>34.27</td><td>34.98</td><td>SELL</td><td>-10.9</td><td>7.27</td><td>14.54</td><td><div>3d: 30.62 <span class='conf-int'>28.19 - 33.27</span></div><div>5d: 30.46 <span class='conf-int'>27.95 - 33.13</span></div><div>7d: 31.3 <span class='conf-int'>28.54 - 33.87</span></div><div>14d: 33.56 <span class='conf-int'>30.93 - 36.33</span></div></td></tr><tr class='sell'><td>PANW</td><td>183.51</td><td>33.61</td><td>12.44</td><td>SELL</td><td>-5.37</td><td>3.58</td><td>7.16</td><td><div>3d: 190.53 <span class='conf-int'>184.68 - 196.51</span></div><div>5d: 189.65 <span class='conf-int'>184.11 - 196.05</span></div><div>7d: 187.83 <span class='conf-int'>182.68 - 194.26</span></div><div>14d: 189.23 <span class='conf-int'>183.45 - 194.95</span></div></td></tr><tr class='hold'><td>PFE</td><td>25.50</td><td>32.67</td><td>59.44</td><td>HOLD</td><td>-4.53</td><td>3.02</td><td>6.04</td><td><div>3d: 25.24 <span class='conf-int'>24.7 - 25.83</span></div><div>5d: 25.18 <span class='conf-int'>24.62 - 25.77</span></div><div>7d: 25.14 <span class='conf-int'>24.53 - 25.72</span></div><div>14d: 25.03 <span class='conf-int'>24.44 - 25.65</span></div></td></tr><tr class='sell'><td>CRM</td><td>226.10</td><td>32.52</td><td>25.08</td><td>SELL</td><td>-4.89</td><td>3.26</td><td>6.52</td><td><div>3d: 228.15 <span class='conf-int'>220.17 - 235.74</span></div><div>5d: 229.13 <span class='conf-int'>221.12 - 236.33</span></div><div>7d: 228.03 <span class='conf-int'>220.49 - 235.76</span></div><div>14d: 235.13 <span class='conf-int'>227.1 - 243.44</span></div></td></tr><tr class='sell'><td>MRNA</td><td>23.72</td><td>32.39</td><td>42.18</td><td>SELL</td><td>-9.18</td><td>6.12</td><td>12.24</td><td><div>3d: 25.35 <span class='conf-int'>23.23 - 27.53</span></div><div>5d: 25.49 <span class='conf-int'>23.4 - 27.52</span></div><div>7d: 25.57 <span class='conf-int'>23.25 - 27.78</span></div><div>14d: 25.76 <span class='conf-int'>23.65 - 27.87</span></div></td></tr><tr class='sell'><td>HD</td><td>346.21</td><td>31.45</td><td>36.56</td><td>SELL</td><td>-3.92</td><td>2.61</td><td>5.22</td><td><div>3d: 345.97 <span class='conf-int'>338.45 - 353.13</span></div><div>5d: 345.32 <span class='conf-int'>337.78 - 352.12</span></div><div>7d: 346.21 <span class='conf-int'>339.1 - 353.5</span></div><div>14d: 347.82 <span class='conf-int'>340.24 - 355.65</span></div></td></tr><tr class='sell'><td>AAPL</td><td>270.66</td><td>31.10</td><td>56.39</td><td>SELL</td><td>-3.22</td><td>2.15</td><td>4.3</td><td><div>3d: 267.61 <span class='conf-int'>260.92 - 274.52</span></div><div>5d: 268.91 <span class='conf-int'>262.31 - 275.33</span></div><div>7d: 269.61 <span class='conf-int'>262.26 - 276.58</span></div><div>14d: 277.19 <span class='conf-int'>270.52 - 283.85</span></div></td></tr><tr class='sell'><td>NFLX</td><td>105.30</td><td>30.69</td><td>31.45</td><td>SELL</td><td>-4.65</td><td>3.1</td><td>6.2</td><td><div>3d: 111.97 <span class='conf-int'>108.59 - 115.19</span></div><div>5d: 112.92 <span class='conf-int'>109.53 - 115.98</span></div><div>7d: 112.74 <span class='conf-int'>109.54 - 116.02</span></div><div>14d: 113.87 <span class='conf-int'>110.46 - 117.39</span></div></td></tr><tr class='sell'><td>MSTR</td><td>174.60</td><td>29.83</td><td>19.05</td><td>SELL</td><td>-14.64</td><td>9.76</td><td>19.52</td><td><div>3d: 181.65 <span class='conf-int'>162.48 - 201.45</span></div><div>5d: 182.92 <span class='conf-int'>164.0 - 201.29</span></div><div>7d: 182.21 <span class='conf-int'>161.18 - 202.2</span></div><div>14d: 186.03 <span class='conf-int'>166.94 - 205.12</span></div></td></tr><tr class='sell'><td>SPY</td><td>659.89</td><td>27.53</td><td>38.66</td><td>SELL</td><td>-2.33</td><td>1.55</td><td>3.1</td><td><div>3d: 660.93 <span class='conf-int'>651.82 - 669.59</span></div><div>5d: 662.34 <span class='conf-int'>653.21 - 670.57</span></div><div>7d: 661.41 <span class='conf-int'>652.8 - 670.23</span></div><div>14d: 666.06 <span class='conf-int'>656.89 - 675.55</span></div></td></tr><tr class='sell'><td>QQQ</td><td>590.43</td><td>27.25</td><td>32.39</td><td>SELL</td><td>-3.34</td><td>2.23</td><td>4.46</td><td><div>3d: 594.3 <span class='conf-int'>585.35 - 603.54</span></div><div>5d: 596.47 <span class='conf-int'>587.64 - 605.05</span></div><div>7d: 596.01 <span class='conf-int'>586.2 - 605.34</span></div><div>14d: 606.4 <span class='conf-int'>597.49 - 615.31</span></div></td></tr><tr class='sell'><td>META</td><td>591.82</td><td>27.05</td><td>20.86</td><td>SELL</td><td>-4.43</td><td>2.95</td><td>5.9</td><td><div>3d: 612.11 <span class='conf-int'>592.81 - 630.48</span></div><div>5d: 622.35 <span class='conf-int'>602.99 - 639.79</span></div><div>7d: 630.01 <span class='conf-int'>611.75 - 648.72</span></div><div>14d: 661.32 <span class='conf-int'>641.88 - 681.43</span></div></td></tr><tr class='hold'><td>CVX</td><td>150.68</td><td>26.72</td><td>40.5</td><td>HOLD</td><td>-2.8</td><td>1.87</td><td>3.74</td><td><div>3d: 152.89 <span class='conf-int'>149.75 - 156.13</span></div><div>5d: 153.76 <span class='conf-int'>150.67 - 156.77</span></div><div>7d: 153.99 <span class='conf-int'>150.55 - 157.26</span></div><div>14d: 152.33 <span class='conf-int'>149.2 - 155.46</span></div></td></tr><tr class='sell'><td>QCOM</td><td>163.06</td><td>26.41</td><td>36.98</td><td>SELL</td><td>-6.03</td><td>4.02</td><td>8.04</td><td><div>3d: 162.78 <span class='conf-int'>157.75 - 167.57</span></div><div>5d: 163.35 <span class='conf-int'>158.31 - 167.9</span></div><div>7d: 161.45 <span class='conf-int'>156.69 - 166.33</span></div><div>14d: 163.01 <span class='conf-int'>157.94 - 168.26</span></div></td></tr><tr class='sell'><td>AMZN</td><td>219.93</td><td>25.77</td><td>30.73</td><td>SELL</td><td>-4.64</td><td>3.09</td><td>6.18</td><td><div>3d: 224.67 <span class='conf-int'>218.73 - 230.81</span></div><div>5d: 224.51 <span class='conf-int'>218.65 - 230.21</span></div><div>7d: 224.6 <span class='conf-int'>218.08 - 230.79</span></div><div>14d: 234.17 <span class='conf-int'>228.25 - 240.09</span></div></td></tr><tr class='sell'><td>GDX</td><td>74.05</td><td>25.48</td><td>46.95</td><td>SELL</td><td>-5.93</td><td>3.95</td><td>7.9</td><td><div>3d: 78.05 <span class='conf-int'>76.13 - 79.88</span></div><div>5d: 78.49 <span class='conf-int'>76.57 - 80.23</span></div><div>7d: 78.37 <span class='conf-int'>76.55 - 80.23</span></div><div>14d: 77.56 <span class='conf-int'>75.63 - 79.56</span></div></td></tr><tr class='sell'><td>MSFT</td><td>474.53</td><td>25.19</td><td>21.1</td><td>SELL</td><td>-3.62</td><td>2.41</td><td>4.82</td><td><div>3d: 488.21 <span class='conf-int'>479.73 - 496.96</span></div><div>5d: 490.74 <span class='conf-int'>482.37 - 498.87</span></div><div>7d: 492.97 <span class='conf-int'>483.67 - 501.81</span></div><div>14d: 507.94 <span class='conf-int'>499.49 - 516.38</span></div></td></tr><tr class='sell'><td>IWM</td><td>235.47</td><td>24.97</td><td>44.5</td><td>SELL</td><td>-3.3</td><td>2.2</td><td>4.4</td><td><div>3d: 234.4 <span class='conf-int'>230.45 - 238.26</span></div><div>5d: 234.98 <span class='conf-int'>230.96 - 238.61</span></div><div>7d: 234.27 <span class='conf-int'>230.56 - 238.12</span></div><div>14d: 233.49 <span class='conf-int'>229.51 - 237.47</span></div></td></tr><tr class='sell'><td>FSLR</td><td>248.77</td><td>23.77</td><td>41.53</td><td>SELL</td><td>-7.9</td><td>5.27</td><td>10.54</td><td><div>3d: 253.46 <span class='conf-int'>242.9 - 263.18</span></div><div>5d: 252.76 <span class='conf-int'>241.91 - 262.95</span></div><div>7d: 252.85 <span class='conf-int'>242.28 - 263.01</span></div><div>14d: 253.82 <span class='conf-int'>243.83 - 264.81</span></div></td></tr><tr class='sell'><td>INTC</td><td>34.02</td><td>22.60</td><td>32.14</td><td>SELL</td><td>-7.88</td><td>5.25</td><td>10.5</td><td><div>3d: 32.29 <span class='conf-int'>30.88 - 33.67</span></div><div>5d: 31.75 <span class='conf-int'>30.31 - 33.05</span></div><div>7d: 31.22 <span class='conf-int'>29.89 - 32.6</span></div><div>14d: 29.84 <span class='conf-int'>28.41 - 31.26</span></div></td></tr><tr class='sell'><td>UBER</td><td>83.20</td><td>21.92</td><td>15.32</td><td>SELL</td><td>-6.02</td><td>4.01</td><td>8.02</td><td><div>3d: 87.04 <span class='conf-int'>84.47 - 89.41</span></div><div>5d: 85.54 <span class='conf-int'>82.9 - 88.03</span></div><div>7d: 84.46 <span class='conf-int'>81.89 - 86.94</span></div><div>14d: 80.91 <span class='conf-int'>78.48 - 83.6</span></div></td></tr><tr class='sell'><td>AVGO</td><td>342.70</td><td>20.49</td><td>42.5</td><td>SELL</td><td>-7.05</td><td>4.7</td><td>9.4</td><td><div>3d: 341.99 <span class='conf-int'>329.91 - 353.8</span></div><div>5d: 345.53 <span class='conf-int'>333.22 - 356.63</span></div><div>7d: 346.22 <span class='conf-int'>334.88 - 358.0</span></div><div>14d: 360.22 <span class='conf-int'>348.05 - 372.42</span></div></td></tr><tr class='sell'><td>ZS</td><td>274.94</td><td>20.49</td><td>16.69</td><td>SELL</td><td>-6.42</td><td>4.28</td><td>8.56</td><td><div>3d: 282.6 <span class='conf-int'>274.49 - 290.06</span></div><div>5d: 279.65 <span class='conf-int'>271.32 - 287.47</span></div><div>7d: 276.61 <span class='conf-int'>268.49 - 284.41</span></div><div>14d: 272.9 <span class='conf-int'>265.24 - 281.34</span></div></td></tr><tr class='sell'><td>CELH</td><td>39.48</td><td>20.32</td><td>23.02</td><td>SELL</td><td>-14.12</td><td>9.41</td><td>18.82</td><td><div>3d: 38.05 <span class='conf-int'>35.71 - 40.33</span></div><div>5d: 38.1 <span class='conf-int'>35.71 - 40.25</span></div><div>7d: 38.22 <span class='conf-int'>36.02 - 40.5</span></div><div>14d: 39.58 <span class='conf-int'>37.22 - 41.94</span></div></td></tr><tr class='sell'><td>CAT</td><td>553.29</td><td>19.13</td><td>49.48</td><td>SELL</td><td>-5.13</td><td>3.42</td><td>6.84</td><td><div>3d: 544.35 <span class='conf-int'>532.99 - 554.82</span></div><div>5d: 544.46 <span class='conf-int'>532.79 - 555.43</span></div><div>7d: 540.88 <span class='conf-int'>529.5 - 551.81</span></div><div>14d: 536.15 <span class='conf-int'>525.41 - 547.98</span></div></td></tr><tr class='hold'><td>NKE</td><td>63.35</td><td>18.64</td><td>49.98</td><td>HOLD</td><td>-4.36</td><td>2.91</td><td>5.82</td><td><div>3d: 63.42 <span class='conf-int'>60.87 - 65.91</span></div><div>5d: 63.79 <span class='conf-int'>61.2 - 66.13</span></div><div>7d: 63.47 <span class='conf-int'>61.07 - 65.95</span></div><div>14d: 64.45 <span class='conf-int'>61.88 - 67.02</span></div></td></tr><tr class='sell'><td>NVDA</td><td>180.25</td><td>18.49</td><td>36.69</td><td>SELL</td><td>-7.57</td><td>5.05</td><td>10.1</td><td><div>3d: 178.81 <span class='conf-int'>172.54 - 184.58</span></div><div>5d: 178.73 <span class='conf-int'>172.29 - 184.78</span></div><div>7d: 176.92 <span class='conf-int'>170.65 - 182.95</span></div><div>14d: 174.86 <span class='conf-int'>168.93 - 181.38</span></div></td></tr><tr class='sell'><td>CRWD</td><td>490.29</td><td>18.33</td><td>26.95</td><td>SELL</td><td>-6.36</td><td>4.24</td><td>8.48</td><td><div>3d: 503.55 <span class='conf-int'>486.66 - 520.07</span></div><div>5d: 502.48 <span class='conf-int'>485.26 - 518.0</span></div><div>7d: 498.24 <span class='conf-int'>482.39 - 514.72</span></div><div>14d: 498.33 <span class='conf-int'>481.31 - 515.39</span></div></td></tr><tr class='sell'><td>SHOP</td><td>147.41</td><td>18.11</td><td>42.21</td><td>SELL</td><td>-8.37</td><td>5.58</td><td>11.16</td><td><div>3d: 143.73 <span class='conf-int'>137.61 - 149.36</span></div><div>5d: 145.22 <span class='conf-int'>138.93 - 151.12</span></div><div>7d: 144.76 <span class='conf-int'>138.64 - 150.65</span></div><div>14d: 148.51 <span class='conf-int'>142.73 - 154.88</span></div></td></tr><tr class='sell'><td>PLTR</td><td>153.95</td><td>17.93</td><td>23.59</td><td>SELL</td><td>-11.77</td><td>7.85</td><td>15.7</td><td><div>3d: 160.15 <span class='conf-int'>153.06 - 167.09</span></div><div>5d: 159.96 <span class='conf-int'>152.73 - 166.48</span></div><div>7d: 159.33 <span class='conf-int'>152.68 - 166.25</span></div><div>14d: 162.45 <span class='conf-int'>155.31 - 169.62</span></div></td></tr><tr class='sell'><td>AMD</td><td>202.67</td><td>17.78</td><td>24.65</td><td>SELL</td><td>-12.5</td><td>8.33</td><td>16.66</td><td><div>3d: 219.96 <span class='conf-int'>211.86 - 227.41</span></div><div>5d: 219.44 <span class='conf-int'>211.13 - 227.25</span></div><div>7d: 214.42 <span class='conf-int'>206.32 - 222.21</span></div><div>14d: 209.0 <span class='conf-int'>201.35 - 217.42</span></div></td></tr><tr class='sell'><td>TSLA</td><td>399.18</td><td>17.24</td><td>35.38</td><td>SELL</td><td>-8.76</td><td>5.84</td><td>11.68</td><td><div>3d: 385.87 <span class='conf-int'>368.3 - 402.4</span></div><div>5d: 389.0 <span class='conf-int'>371.07 - 405.65</span></div><div>7d: 392.37 <span class='conf-int'>375.86 - 410.64</span></div><div>14d: 431.3 <span class='conf-int'>413.58 - 447.86</span></div></td></tr><tr class='sell'><td>SEDG</td><td>34.88</td><td>13.64</td><td>43.59</td><td>SELL</td><td>-19.84</td><td>13.23</td><td>26.46</td><td><div>3d: 35.02 <span class='conf-int'>32.58 - 37.15</span></div><div>5d: 34.66 <span class='conf-int'>32.4 - 36.9</span></div><div>7d: 34.44 <span class='conf-int'>32.05 - 36.64</span></div><div>14d: 34.7 <span class='conf-int'>32.35 - 37.03</span></div></td></tr>
+    </tbody>
+</table>
+
+<script>
+    // Simple table sorter
+    document.querySelectorAll("th").forEach((th, index) => {
+        th.addEventListener("click", () => {
+            const table = th.closest("table");
+            const rows = Array.from(table.querySelectorAll("tbody tr"));
+            const asc = th.classList.toggle("asc");
+
+            rows.sort((a, b) => {
+                const valA = a.children[index].innerText;
+                const valB = b.children[index].innerText;
+                return asc ? valA.localeCompare(valB, undefined, {numeric: true})
+                           : valB.localeCompare(valA, undefined, {numeric: true});
+            });
+
+            rows.forEach(r => table.querySelector("tbody").appendChild(r));
+        });
+    });
+</script>
+
+</body>
+</html>
+

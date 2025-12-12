@@ -1,0 +1,56 @@
+Have to upload previous code to use to rewrite script adding arima, and bollinger band using the code provided as base code to revise for a clean copy and paste
+
+
+
+Possible upgrades:Explain ARIMA parameters
+Add RSI divergence detection
+more concise forecasting
+Add Ichimoku Cloud indicator
+Prophet time series
+
+Add XGBoost ML model
+even more concise HTML
+
+Fix HTML None formatting
+
+
+ben@TradingMachine:~$ pip --version pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
+ben@TradingMachine:~$ python3 --version Python 3.10.12
+
+
+
+
+MACHING LEARNING:
+https://www.machinelearningplus.com/machine-learning/setup-python/
+
+Do I need LSTM installed to run machine learning
+
+
+do i need to make a virtual enviroment to install scikit-learn 1.7.2 (stable) would that mess with python3 and libraries in any way sounds like that could be more of a hassle to use in python
+
+https://scikit-learn.org/stable/install.html    linux   conda (supposedly esier)
+
+
+
+ben@TradingMachine:~/Desktop/XSS Project$ python3 run1.py --symbols symbolsFAST.txt
+Warning: statsmodels not found. ARIMA forecasting will be skipped. Install with 'pip install statsmodels'.
+Warning: Prophet not found. Prophet forecasting will be skipped. Install with 'pip install prophet'.
+
+
+
+Stand by:
+Arima
+Prophet
+
+
+
+
+
+
+
+
+
+
+
+
+

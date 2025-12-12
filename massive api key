@@ -1,0 +1,15 @@
+https://massive.com/dashboard
+bdjspezio@gmail.com
+Joe******!59
+
+
+64b78141-c98c-48c6-ae53-856bcf5c5db2    <-------- Access Key ID
+
+DXBp82xx8FVcz113RqiIkkI1J7Gs74U2    <------API KEY
+
+
+export POLYGON_API_KEY='DXBp82xx8FVcz113RqiIkkI1J7Gs74U2'
+
+
+
+python3 day_trade.py --symbols symbolsFAST.txt

@@ -1,0 +1,133 @@
+Symbol,Sector,Price,% Change,Score,RSI,RSI Zone,ATR%,EMA20,SMA21,Trend,Sentiment Bar,Momentum,News Sentiment,Distance to EMA%,Exhaustion,Pullback Window,Breakout Window,Exp Ride Length,Vol Shape,Freshness Index,Rel Momentum,MACD,MACD Signal,MACD Hist,Stoch %K,Stoch %D,VWAP,BB Upper,BB Middle,BB Lower,Why This Stock,Forecasts,Trade,Trendline Support,Trendline Broken,Stop %,Target1 %,Target2 %,notes
+GOOGL,,302.4038,4.48,74.42,72.02,Overbought,3.67,281.1321,281.9102,,,8.45,0.0,,,,,,Increasing,1.0,"Ticker
+SPY    9.53
+dtype: float64",6.3957,5.9694,0.4262,69.34,64.1,195.9841,299.3945,283.0097,266.6249,"vol↑, above EMA20, positive ROC","{3: {'yhat': 292.17, 'yhat_lower': 286.94, 'yhat_upper': 297.1}, 5: {'yhat': 294.14, 'yhat_lower': 289.26, 'yhat_upper': 299.06}, 7: {'yhat': 295.85, 'yhat_lower': 290.81, 'yhat_upper': 300.86}, 14: {'yhat': 304.89, 'yhat_lower': 300.02, 'yhat_upper': 309.79}}",HOLD,284.5426,False,-5.5,3.67,7.34,
+LLY,,1065.62,2.14,69.6,87.65,Overbought,3.1,966.3476,942.6379,,,15.45,0.0,,,,,,Increasing,1.0,"Ticker
+SPY    16.53
+dtype: float64",47.5861,44.5271,3.059,96.58,95.86,787.5087,1118.8478,948.5578,778.2678,"vol↑, above EMA20, positive ROC","{3: {'yhat': 1096.78, 'yhat_lower': 1065.57, 'yhat_upper': 1128.41}, 5: {'yhat': 1108.89, 'yhat_lower': 1078.64, 'yhat_upper': 1141.23}, 7: {'yhat': 1109.92, 'yhat_lower': 1076.37, 'yhat_upper': 1143.29}, 14: {'yhat': 1114.47, 'yhat_lower': 1081.79, 'yhat_upper': 1143.02}}",SELL,965.8099,False,-4.65,3.1,6.2,
+WMT,,105.965,-1.07,68.02,63.43,Neutral,2.1,103.3826,102.9345,,,3.29,0.0,,,,,,Increasing,0.0263,"Ticker
+SPY    4.37
+dtype: float64",0.3888,-0.1653,0.5541,67.28,60.16,95.8466,105.9291,102.7727,99.6164,"vol↑, above EMA20, positive ROC","{3: {'yhat': 107.56, 'yhat_lower': 105.5, 'yhat_upper': 109.5}, 5: {'yhat': 109.03, 'yhat_lower': 107.1, 'yhat_upper': 110.96}, 7: {'yhat': 109.93, 'yhat_lower': 107.94, 'yhat_upper': 111.9}, 14: {'yhat': 112.37, 'yhat_lower': 110.45, 'yhat_upper': 114.3}}",HOLD,103.146,False,-3.15,2.1,4.2,
+DE,,490.98,3.08,58.28,74.61,Overbought,2.14,473.794,473.3976,,,4.96,0.0,,,,,,Decreasing,0.0053,"Ticker
+SPY    6.04
+dtype: float64",3.8145,2.8833,0.9312,79.39,71.21,471.8392,486.8455,473.4295,460.0135,"above EMA20, positive ROC","{3: {'yhat': 480.91, 'yhat_lower': 469.72, 'yhat_upper': 492.25}, 5: {'yhat': 481.61, 'yhat_lower': 470.77, 'yhat_upper': 493.21}, 7: {'yhat': 482.52, 'yhat_lower': 470.49, 'yhat_upper': 494.48}, 14: {'yhat': 482.12, 'yhat_lower': 470.41, 'yhat_upper': 492.35}}",HOLD,463.9743,False,-3.21,2.14,4.28,
+XOM,,117.29,0.23,45.08,53.75,Neutral,1.95,116.1629,115.8401,,,0.93,0.0,,,,,,Increasing,0.125,"Ticker
+SPY    2.01
+dtype: float64",0.92,1.0814,-0.1613,69.1,74.69,108.0582,120.3543,115.9126,111.4709,"vol↑, above EMA20, positive ROC","{3: {'yhat': 116.97, 'yhat_lower': 114.35, 'yhat_upper': 119.43}, 5: {'yhat': 116.7, 'yhat_lower': 114.26, 'yhat_upper': 119.16}, 7: {'yhat': 116.15, 'yhat_lower': 113.63, 'yhat_upper': 118.66}, 14: {'yhat': 112.89, 'yhat_lower': 110.45, 'yhat_upper': 115.34}}",HOLD,115.2367,False,-2.92,1.95,3.9,
+SLV,,45.725,-0.12,44.92,50.88,Neutral,2.87,45.3537,44.8455,,,4.11,0.0,,,,,,Increasing,0.027,"Ticker
+SPY    5.19
+dtype: float64",0.4049,0.4713,-0.0664,56.14,56.93,35.1118,48.2374,44.8882,41.5391,"vol↑, above EMA20, positive ROC","{3: {'yhat': 47.82, 'yhat_lower': 46.88, 'yhat_upper': 48.77}, 5: {'yhat': 48.16, 'yhat_lower': 47.25, 'yhat_upper': 49.14}, 7: {'yhat': 48.23, 'yhat_lower': 47.22, 'yhat_upper': 49.24}, 14: {'yhat': 48.15, 'yhat_lower': 47.17, 'yhat_upper': 49.01}}",SELL,47.0301,True,-4.3,2.87,5.74,
+GLD,,375.98,0.3,37.71,52.98,Neutral,1.7,373.8388,372.2386,,,2.08,0.0,,,,,,Decreasing,0.0303,"Ticker
+SPY    3.16
+dtype: float64",0.9854,1.2806,-0.2951,51.79,49.11,315.6894,385.2415,371.9745,358.7075,"above EMA20, positive ROC","{3: {'yhat': 384.02, 'yhat_lower': 378.26, 'yhat_upper': 389.45}, 5: {'yhat': 385.53, 'yhat_lower': 380.16, 'yhat_upper': 390.94}, 7: {'yhat': 385.92, 'yhat_lower': 380.38, 'yhat_upper': 391.43}, 14: {'yhat': 384.87, 'yhat_lower': 379.51, 'yhat_upper': 390.26}}",SELL,384.9149,True,-2.55,1.7,3.4,
+ADBE,,326.455,4.5,37.31,47.4,Neutral,2.41,331.2336,334.3631,,,-0.15,0.0,,,,,,Decreasing,0.0028,"Ticker
+SPY    0.93
+dtype: float64",-5.2398,-4.5262,-0.7136,21.03,13.62,390.9521,355.951,333.4052,310.8595,,"{3: {'yhat': 333.58, 'yhat_lower': 319.83, 'yhat_upper': 347.51}, 5: {'yhat': 336.99, 'yhat_lower': 323.67, 'yhat_upper': 351.24}, 7: {'yhat': 337.17, 'yhat_lower': 322.39, 'yhat_upper': 351.86}, 14: {'yhat': 337.93, 'yhat_lower': 323.53, 'yhat_upper': 350.5}}",HOLD,326.0641,False,-3.62,2.41,4.82,
+COIN,,243.6,2.28,36.27,23.53,Oversold,8.07,291.6616,305.2991,,,-21.2,0.0,,,,,,Decreasing,0.0079,"Ticker
+SPY   -20.12
+dtype: float64",-22.0843,-16.4886,-5.5958,8.06,6.29,290.8758,376.3894,302.841,229.2927,RSI low,"{3: {'yhat': 252.6, 'yhat_lower': 233.09, 'yhat_upper': 270.99}, 5: {'yhat': 253.5, 'yhat_lower': 235.29, 'yhat_upper': 271.83}, 7: {'yhat': 252.44, 'yhat_lower': 233.67, 'yhat_upper': 271.13}, 14: {'yhat': 256.2, 'yhat_lower': 238.03, 'yhat_upper': 274.47}}",SELL,300.4024,True,-12.1,8.07,16.14,
+SMCI,,32.43,2.76,35.92,24.64,Oversold,8.49,39.8234,42.0319,,,-18.44,0.0,,,,,,Decreasing,0.0087,"Ticker
+SPY   -17.36
+dtype: float64",-3.96,-3.5951,-0.3649,3.6,3.64,42.2533,56.8337,41.719,26.6043,RSI low,"{3: {'yhat': 37.49, 'yhat_lower': 33.57, 'yhat_upper': 41.47}, 5: {'yhat': 39.07, 'yhat_lower': 35.26, 'yhat_upper': 43.13}, 7: {'yhat': 39.51, 'yhat_lower': 35.29, 'yhat_upper': 43.71}, 14: {'yhat': 42.17, 'yhat_lower': 38.06, 'yhat_upper': 45.76}}",SELL,42.99,True,-12.74,8.49,16.98,
+COST,,903.705,1.17,35.63,42.85,Neutral,1.71,914.5558,917.169,,,-2.06,0.0,,,,,,Increasing,0.0035,"Ticker
+SPY   -0.98
+dtype: float64",-7.6848,-5.5024,-2.1824,30.7,20.19,960.3849,943.1438,916.4863,889.8288,"vol↑, RSI low","{3: {'yhat': 918.99, 'yhat_lower': 899.66, 'yhat_upper': 937.21}, 5: {'yhat': 924.71, 'yhat_lower': 906.66, 'yhat_upper': 942.87}, 7: {'yhat': 928.55, 'yhat_lower': 909.94, 'yhat_upper': 947.06}, 14: {'yhat': 945.0, 'yhat_lower': 927.0, 'yhat_upper': 963.1}}",HOLD,900.79,False,-2.56,1.71,3.42,
+AAPL,,272.88,2.49,35.55,61.64,Neutral,2.18,267.8468,269.6573,,,1.74,0.0,,,,,,Increasing,0.0909,"Ticker
+SPY    2.82
+dtype: float64",1.1992,2.0826,-0.8834,34.07,24.12,225.8079,274.6495,270.0119,265.3743,"vol↑, above EMA20, positive ROC","{3: {'yhat': 268.44, 'yhat_lower': 261.58, 'yhat_upper': 275.39}, 5: {'yhat': 269.84, 'yhat_lower': 263.19, 'yhat_upper': 276.94}, 7: {'yhat': 270.67, 'yhat_lower': 263.3, 'yhat_upper': 278.0}, 14: {'yhat': 278.4, 'yhat_lower': 271.22, 'yhat_upper': 284.67}}",HOLD,273.3519,False,-3.27,2.18,4.36,
+PFE,,25.2365,3.43,33.88,56.06,Neutral,3.05,24.8162,24.6441,,,3.3,0.0,,,,,,Increasing,0.02,"Ticker
+SPY    4.38
+dtype: float64",0.1442,0.174,-0.0299,40.06,44.6,23.9796,25.9539,24.6597,23.3655,"vol↑, above EMA20, positive ROC","{3: {'yhat': 25.18, 'yhat_lower': 24.56, 'yhat_upper': 25.76}, 5: {'yhat': 25.12, 'yhat_lower': 24.54, 'yhat_upper': 25.7}, 7: {'yhat': 25.07, 'yhat_lower': 24.47, 'yhat_upper': 25.66}, 14: {'yhat': 24.95, 'yhat_lower': 24.37, 'yhat_upper': 25.53}}",HOLD,24.5571,False,-4.57,3.05,6.1,
+PANW,,184.46,-0.33,33.51,12.86,Oversold,3.56,204.9578,210.1543,,,-13.11,0.0,,,,,,Increasing,0.04,"Ticker
+SPY   -12.03
+dtype: float64",-6.5878,-3.0298,-3.558,7.55,9.25,189.1242,231.5723,209.8065,188.0407,"vol↑, RSI low","{3: {'yhat': 190.8, 'yhat_lower': 184.68, 'yhat_upper': 197.01}, 5: {'yhat': 189.96, 'yhat_lower': 184.02, 'yhat_upper': 196.3}, 7: {'yhat': 188.18, 'yhat_lower': 181.6, 'yhat_upper': 194.73}, 14: {'yhat': 189.62, 'yhat_lower': 183.2, 'yhat_upper': 195.22}}",SELL,210.4932,True,-5.34,3.56,7.12,
+ENPH,,27.11,3.79,33.18,34.72,Neutral,7.36,30.0671,30.5171,,,-10.29,0.0,,,,,,Decreasing,0.0029,"Ticker
+SPY   -9.21
+dtype: float64",-1.6854,-1.5313,-0.1541,6.36,4.16,44.0366,35.9695,30.2315,24.4935,RSI low,"{3: {'yhat': 30.66, 'yhat_lower': 27.72, 'yhat_upper': 33.34}, 5: {'yhat': 30.52, 'yhat_lower': 27.64, 'yhat_upper': 33.2}, 7: {'yhat': 31.36, 'yhat_lower': 28.81, 'yhat_upper': 34.12}, 14: {'yhat': 33.64, 'yhat_lower': 30.69, 'yhat_upper': 36.48}}",SELL,28.8529,True,-11.04,7.36,14.72,
+MRNA,,23.66,5.81,32.42,41.69,Neutral,6.17,24.9286,25.111,,,-3.59,0.0,,,,,,Decreasing,0.0031,"Ticker
+SPY   -2.51
+dtype: float64",-0.6032,-0.414,-0.1892,17.64,21.1,30.2853,27.7942,25.0295,22.2648,RSI low,"{3: {'yhat': 25.39, 'yhat_lower': 23.34, 'yhat_upper': 27.57}, 5: {'yhat': 25.54, 'yhat_lower': 23.49, 'yhat_upper': 27.69}, 7: {'yhat': 25.63, 'yhat_lower': 23.4, 'yhat_upper': 27.77}, 14: {'yhat': 25.83, 'yhat_lower': 23.65, 'yhat_upper': 28.11}}",SELL,24.9675,True,-9.25,6.17,12.34,
+NFLX,,105.38,-0.27,31.71,31.61,Neutral,3.1,111.4738,110.6044,,,-4.52,0.0,,,,,,Increasing,0.0069,"Ticker
+SPY   -3.44
+dtype: float64",-1.6055,-1.0003,-0.6053,12.92,30.34,107.0659,115.998,110.6611,105.3243,"vol↑, RSI low","{3: {'yhat': 112.05, 'yhat_lower': 108.52, 'yhat_upper': 115.26}, 5: {'yhat': 113.01, 'yhat_lower': 109.56, 'yhat_upper': 116.24}, 7: {'yhat': 112.84, 'yhat_lower': 109.79, 'yhat_upper': 116.15}, 14: {'yhat': 113.99, 'yhat_lower': 110.45, 'yhat_upper': 117.4}}",SELL,107.9302,True,-4.65,3.1,6.2,
+CRM,,228.3217,1.31,31.67,30.78,Neutral,3.27,240.5369,245.1958,,,-4.82,0.0,,,,,,Increasing,0.0028,"Ticker
+SPY   -3.74
+dtype: float64",-5.7362,-3.5507,-2.1856,10.05,8.97,275.0151,266.5747,244.7141,222.8535,"vol↑, RSI low","{3: {'yhat': 229.04, 'yhat_lower': 221.49, 'yhat_upper': 237.06}, 5: {'yhat': 230.12, 'yhat_lower': 222.6, 'yhat_upper': 238.03}, 7: {'yhat': 229.16, 'yhat_lower': 220.96, 'yhat_upper': 237.05}, 14: {'yhat': 236.43, 'yhat_lower': 228.4, 'yhat_upper': 244.79}}",SELL,239.6411,True,-4.9,3.27,6.54,
+HD,,344.63,3.69,31.61,34.33,Neutral,2.64,362.6478,367.7419,,,-7.14,0.0,,,,,,Increasing,0.0028,"Ticker
+SPY   -6.06
+dtype: float64",-11.2274,-8.3212,-2.9062,11.09,6.2,378.8375,400.6641,366.795,332.9259,"vol↑, RSI low","{3: {'yhat': 345.35, 'yhat_lower': 337.53, 'yhat_upper': 352.47}, 5: {'yhat': 344.62, 'yhat_lower': 336.97, 'yhat_upper': 351.78}, 7: {'yhat': 345.41, 'yhat_lower': 338.63, 'yhat_upper': 352.75}, 14: {'yhat': 346.9, 'yhat_lower': 339.03, 'yhat_upper': 354.46}}",SELL,352.4372,True,-3.96,2.64,5.28,
+CVX,,150.74,0.29,30.26,40.85,Neutral,1.87,152.6044,152.8516,,,-1.67,0.0,,,,,,Increasing,0.0043,"Ticker
+SPY   -0.59
+dtype: float64",-0.424,-0.0132,-0.4108,16.99,25.1,146.8361,155.9865,152.802,149.6176,"vol↑, RSI low","{3: {'yhat': 152.86, 'yhat_lower': 149.74, 'yhat_upper': 156.18}, 5: {'yhat': 153.74, 'yhat_lower': 150.63, 'yhat_upper': 157.01}, 7: {'yhat': 153.96, 'yhat_lower': 150.57, 'yhat_upper': 157.22}, 14: {'yhat': 152.28, 'yhat_lower': 148.96, 'yhat_upper': 155.74}}",HOLD,150.208,False,-2.8,1.87,3.74,
+MSTR,,173.58,-2.0,29.94,18.79,Oversold,9.82,226.994,236.0543,,,-28.25,0.0,,,,,,Increasing,0.0078,"Ticker
+SPY   -27.17
+dtype: float64",-24.0097,-20.8688,-3.1409,6.22,8.93,341.3731,305.4897,233.403,161.3163,"vol↑, RSI low","{3: {'yhat': 181.12, 'yhat_lower': 159.76, 'yhat_upper': 200.59}, 5: {'yhat': 182.32, 'yhat_lower': 161.41, 'yhat_upper': 201.87}, 7: {'yhat': 181.55, 'yhat_lower': 163.02, 'yhat_upper': 201.6}, 14: {'yhat': 185.25, 'yhat_lower': 163.76, 'yhat_upper': 205.91}}",SELL,213.1709,True,-14.73,9.82,19.64,
+SPY,,663.62,1.7,29.62,43.82,Neutral,1.58,669.6592,674.8852,,,-1.1,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY   -0.02
+dtype: float64",-4.1729,-1.6128,-2.5602,20.65,16.97,606.5095,694.6687,674.767,654.8653,"vol↑, RSI low","{3: {'yhat': 662.13, 'yhat_lower': 653.54, 'yhat_upper': 671.27}, 5: {'yhat': 663.68, 'yhat_lower': 655.12, 'yhat_upper': 672.7}, 7: {'yhat': 662.94, 'yhat_lower': 653.59, 'yhat_upper': 671.92}, 14: {'yhat': 667.78, 'yhat_lower': 658.64, 'yhat_upper': 677.3}}",SELL,674.63,True,-2.37,1.58,3.16,
+QQQ,,596.0,1.76,29.43,39.37,Neutral,2.27,607.9432,615.6986,,,-2.25,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY   -1.17
+dtype: float64",-6.2058,-2.6163,-3.5895,18.0,14.75,539.0926,643.9512,615.6285,587.3058,"vol↑, RSI low","{3: {'yhat': 595.38, 'yhat_lower': 585.57, 'yhat_upper': 604.33}, 5: {'yhat': 597.63, 'yhat_lower': 588.02, 'yhat_upper': 606.61}, 7: {'yhat': 597.34, 'yhat_lower': 588.83, 'yhat_upper': 606.56}, 14: {'yhat': 607.75, 'yhat_lower': 597.88, 'yhat_upper': 617.24}}",SELL,616.4314,True,-3.4,2.27,4.54,
+GDX,,74.09,1.53,28.74,47.14,Neutral,3.95,74.56,73.4524,,,2.12,0.0,,,,,,Increasing,0.027,"Ticker
+SPY    3.2
+dtype: float64",0.195,0.3173,-0.1223,53.38,58.16,54.6161,79.3014,73.485,67.6686,"vol↑, positive ROC","{3: {'yhat': 78.07, 'yhat_lower': 76.26, 'yhat_upper': 80.0}, 5: {'yhat': 78.52, 'yhat_lower': 76.71, 'yhat_upper': 80.42}, 7: {'yhat': 78.4, 'yhat_lower': 76.42, 'yhat_upper': 80.3}, 14: {'yhat': 77.6, 'yhat_lower': 75.66, 'yhat_upper': 79.61}}",SELL,75.6301,True,-5.93,3.95,7.9,
+QCOM,,164.6,3.14,28.74,40.51,Neutral,4.04,169.8841,173.5552,,,-3.68,0.0,,,,,,Decreasing,0.0385,"Ticker
+SPY   -2.6
+dtype: float64",-2.6232,-0.8457,-1.7775,15.93,15.06,157.5597,187.6216,173.786,159.9504,RSI low,"{3: {'yhat': 163.11, 'yhat_lower': 157.93, 'yhat_upper': 167.83}, 5: {'yhat': 163.72, 'yhat_lower': 158.65, 'yhat_upper': 168.45}, 7: {'yhat': 161.86, 'yhat_lower': 157.37, 'yhat_upper': 166.73}, 14: {'yhat': 163.44, 'yhat_lower': 158.24, 'yhat_upper': 168.45}}",SELL,171.2127,True,-6.06,4.04,8.08,
+IWM,,236.72,3.32,27.81,47.47,Neutral,2.22,239.1546,241.5029,,,-2.02,0.0,,,,,,Increasing,0.0263,"Ticker
+SPY   -0.94
+dtype: float64",-2.977,-2.2698,-0.7072,20.51,14.26,220.2445,252.8794,241.1065,229.3336,vol↑,"{3: {'yhat': 234.72, 'yhat_lower': 231.1, 'yhat_upper': 238.56}, 5: {'yhat': 235.33, 'yhat_lower': 231.73, 'yhat_upper': 239.12}, 7: {'yhat': 234.67, 'yhat_lower': 230.74, 'yhat_upper': 238.44}, 14: {'yhat': 233.92, 'yhat_lower': 230.07, 'yhat_upper': 237.92}}",SELL,240.8811,True,-3.33,2.22,4.44,
+AMZN,,221.47,1.99,27.68,33.93,Neutral,3.12,231.4282,235.689,,,-9.39,0.0,,,,,,Decreasing,0.0526,"Ticker
+SPY   -8.31
+dtype: float64",-3.7641,0.2041,-3.9682,8.8,8.57,215.0848,259.4478,236.263,213.0782,RSI low,"{3: {'yhat': 224.91, 'yhat_lower': 218.29, 'yhat_upper': 230.94}, 5: {'yhat': 224.76, 'yhat_lower': 218.28, 'yhat_upper': 230.81}, 7: {'yhat': 224.88, 'yhat_lower': 219.14, 'yhat_upper': 231.09}, 14: {'yhat': 234.43, 'yhat_lower': 227.78, 'yhat_upper': 240.83}}",SELL,229.3043,True,-4.68,3.12,6.24,
+META,,595.8,1.13,27.51,26.61,Oversold,2.95,632.6941,643.3767,,,-4.17,0.0,,,,,,Decreasing,0.0098,"Ticker
+SPY   -3.09
+dtype: float64",-22.8169,-24.193,1.3761,14.55,11.77,651.7536,743.3966,638.6275,533.8584,RSI low,"{3: {'yhat': 615.51, 'yhat_lower': 597.6, 'yhat_upper': 634.54}, 5: {'yhat': 626.23, 'yhat_lower': 608.4, 'yhat_upper': 645.01}, 7: {'yhat': 634.45, 'yhat_lower': 614.99, 'yhat_upper': 653.15}, 14: {'yhat': 666.72, 'yhat_lower': 647.67, 'yhat_upper': 686.55}}",SELL,613.0428,True,-4.43,2.95,5.9,
+MSFT,,476.1801,-0.47,27.47,21.89,Oversold,2.4,501.7843,508.5171,,,-3.98,0.0,,,,,,Increasing,0.04,"Ticker
+SPY   -2.9
+dtype: float64",-8.9261,-5.3873,-3.5388,10.78,12.53,453.8006,543.4745,507.8114,472.1483,"vol↑, RSI low","{3: {'yhat': 488.27, 'yhat_lower': 480.02, 'yhat_upper': 497.55}, 5: {'yhat': 490.78, 'yhat_lower': 482.29, 'yhat_upper': 499.99}, 7: {'yhat': 493.02, 'yhat_lower': 485.14, 'yhat_upper': 501.81}, 14: {'yhat': 507.91, 'yhat_lower': 499.9, 'yhat_upper': 516.73}}",SELL,504.1828,True,-3.6,2.4,4.8,
+INTC,,34.88,3.75,24.4,40.51,Neutral,5.24,36.3366,37.5914,,,-8.52,0.0,,,,,,Decreasing,0.04,"Ticker
+SPY   -7.44
+dtype: float64",-0.9492,-0.5195,-0.4297,17.28,13.53,25.2502,42.3016,37.557,32.8124,RSI low,"{3: {'yhat': 32.43, 'yhat_lower': 31.12, 'yhat_upper': 33.73}, 5: {'yhat': 31.9, 'yhat_lower': 30.45, 'yhat_upper': 33.23}, 7: {'yhat': 31.38, 'yhat_lower': 30.07, 'yhat_upper': 32.61}, 14: {'yhat': 30.0, 'yhat_lower': 28.73, 'yhat_upper': 31.36}}",SELL,40.1768,True,-7.86,5.24,10.48,
+AVGO,,345.985,-0.24,23.81,45.55,Neutral,4.65,350.216,356.1002,,,-0.99,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY    0.09
+dtype: float64",-2.3328,-1.4942,-0.8386,41.58,36.44,246.474,381.3599,356.1988,331.0376,vol↑,"{3: {'yhat': 343.53, 'yhat_lower': 332.81, 'yhat_upper': 355.6}, 5: {'yhat': 347.26, 'yhat_lower': 336.22, 'yhat_upper': 359.23}, 7: {'yhat': 348.2, 'yhat_lower': 337.95, 'yhat_upper': 359.62}, 14: {'yhat': 362.53, 'yhat_lower': 352.12, 'yhat_upper': 373.99}}",SELL,351.8858,True,-6.98,4.65,9.3,
+CAT,,551.65,1.01,23.78,47.96,Neutral,3.43,550.2101,557.5986,,,-2.03,0.0,,,,,,Decreasing,0.0417,"Ticker
+SPY   -0.95
+dtype: float64",0.9718,5.5384,-4.5666,26.46,23.35,396.6706,592.5854,559.342,526.0986,above EMA20,"{3: {'yhat': 544.62, 'yhat_lower': 533.64, 'yhat_upper': 555.53}, 5: {'yhat': 544.8, 'yhat_lower': 532.67, 'yhat_upper': 555.94}, 7: {'yhat': 541.26, 'yhat_lower': 530.29, 'yhat_upper': 551.58}, 14: {'yhat': 536.73, 'yhat_lower': 526.1, 'yhat_upper': 548.2}}",SELL,578.0172,True,-5.14,3.43,6.86,
+UBER,,83.325,-0.04,23.75,15.48,Oversold,4.0,91.3596,92.8464,,,-9.42,0.0,,,,,,Increasing,0.0213,"Ticker
+SPY   -8.34
+dtype: float64",-2.4643,-1.2726,-1.1917,7.01,9.51,80.6352,100.8347,92.7852,84.7358,"vol↑, RSI low","{3: {'yhat': 86.92, 'yhat_lower': 84.56, 'yhat_upper': 89.58}, 5: {'yhat': 85.4, 'yhat_lower': 82.97, 'yhat_upper': 88.03}, 7: {'yhat': 84.3, 'yhat_lower': 82.05, 'yhat_upper': 86.81}, 14: {'yhat': 80.7, 'yhat_lower': 78.41, 'yhat_upper': 83.22}}",SELL,91.0424,True,-6.0,4.0,8.0,
+NKE,,63.29,3.03,22.94,49.6,Neutral,2.91,63.9451,63.8114,,,3.6,0.0,,,,,,Increasing,0.0037,"Ticker
+SPY    4.68
+dtype: float64",-0.7263,-0.9411,0.2148,36.24,35.34,67.8819,67.7839,63.5465,59.3091,"vol↑, positive ROC","{3: {'yhat': 63.47, 'yhat_lower': 61.1, 'yhat_upper': 65.83}, 5: {'yhat': 63.86, 'yhat_lower': 61.23, 'yhat_upper': 66.26}, 7: {'yhat': 63.54, 'yhat_lower': 61.17, 'yhat_upper': 65.77}, 14: {'yhat': 64.55, 'yhat_lower': 62.25, 'yhat_upper': 67.03}}",HOLD,60.9534,False,-4.36,2.91,5.82,
+NVDA,,182.99,1.3,22.69,41.54,Neutral,5.06,188.6143,192.8267,,,-2.74,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY   -1.66
+dtype: float64",-2.5733,-0.8643,-1.709,20.4,16.85,143.4581,209.5918,193.155,176.7182,"vol↑, RSI low","{3: {'yhat': 179.36, 'yhat_lower': 173.68, 'yhat_upper': 185.75}, 5: {'yhat': 179.33, 'yhat_lower': 173.48, 'yhat_upper': 185.67}, 7: {'yhat': 177.61, 'yhat_lower': 172.18, 'yhat_upper': 183.66}, 14: {'yhat': 175.57, 'yhat_lower': 170.05, 'yhat_upper': 181.64}}",SELL,191.6386,True,-7.59,5.06,10.12,
+CELH,,39.815,1.54,22.27,25.14,Oversold,9.33,47.4706,50.264,,,-4.11,0.0,,,,,,Increasing,0.0278,"Ticker
+SPY   -3.03
+dtype: float64",-4.3743,-4.1935,-0.1807,3.8,4.01,38.4515,68.3099,49.6098,30.9096,"vol↑, RSI low","{3: {'yhat': 38.06, 'yhat_lower': 35.9, 'yhat_upper': 40.22}, 5: {'yhat': 38.11, 'yhat_lower': 35.72, 'yhat_upper': 40.31}, 7: {'yhat': 38.24, 'yhat_lower': 36.07, 'yhat_upper': 40.27}, 14: {'yhat': 39.58, 'yhat_lower': 37.48, 'yhat_upper': 41.85}}",SELL,48.6464,True,-14.0,9.33,18.66,
+ZS,,278.0,-0.62,22.05,17.89,Oversold,4.23,304.9601,314.3686,,,-13.13,0.0,,,,,,Increasing,0.0526,"Ticker
+SPY   -12.05
+dtype: float64",-9.7749,-4.1385,-5.6363,6.89,5.96,245.7145,349.9713,313.937,277.9027,"vol↑, RSI low","{3: {'yhat': 283.54, 'yhat_lower': 276.16, 'yhat_upper': 291.86}, 5: {'yhat': 280.7, 'yhat_lower': 273.1, 'yhat_upper': 288.95}, 7: {'yhat': 277.81, 'yhat_lower': 270.76, 'yhat_upper': 285.68}, 14: {'yhat': 274.25, 'yhat_lower': 267.08, 'yhat_upper': 282.15}}",SELL,315.9291,True,-6.35,4.23,8.46,
+SHOP,,149.42,3.36,22.04,46.3,Neutral,5.6,153.4248,159.3267,,,-1.96,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY   -0.88
+dtype: float64",-4.6015,-3.9493,-0.6523,25.76,18.29,118.8908,184.864,158.6455,132.427,vol↑,"{3: {'yhat': 144.61, 'yhat_lower': 138.73, 'yhat_upper': 150.46}, 5: {'yhat': 146.21, 'yhat_lower': 139.71, 'yhat_upper': 152.18}, 7: {'yhat': 145.9, 'yhat_lower': 140.01, 'yhat_upper': 151.43}, 14: {'yhat': 149.84, 'yhat_lower': 144.14, 'yhat_upper': 155.99}}",SELL,158.2386,True,-8.4,5.6,11.2,
+CRWD,,496.97,-0.87,20.7,29.4,Oversold,4.19,523.4405,533.9633,,,-7.94,0.0,,,,,,Increasing,0.0833,"Ticker
+SPY   -6.86
+dtype: float64",-6.1165,1.6715,-7.788,14.48,15.21,420.3395,566.9623,534.2955,501.6288,"vol↑, RSI low","{3: {'yhat': 503.86, 'yhat_lower': 489.05, 'yhat_upper': 520.53}, 5: {'yhat': 502.72, 'yhat_lower': 487.47, 'yhat_upper': 519.25}, 7: {'yhat': 498.52, 'yhat_lower': 484.37, 'yhat_upper': 514.29}, 14: {'yhat': 498.27, 'yhat_lower': 483.88, 'yhat_upper': 514.1}}",SELL,544.7564,True,-6.28,4.19,8.38,
+TSLA,,399.54,1.09,19.3,35.72,Neutral,5.83,421.954,432.6529,,,-6.98,0.0,,,,,,Increasing,0.0029,"Ticker
+SPY   -5.9
+dtype: float64",-11.8551,-7.8741,-3.9809,18.89,20.65,342.4275,482.6734,432.5995,382.5256,"vol↑, RSI low","{3: {'yhat': 386.08, 'yhat_lower': 369.14, 'yhat_upper': 402.9}, 5: {'yhat': 389.24, 'yhat_lower': 370.53, 'yhat_upper': 406.42}, 7: {'yhat': 392.64, 'yhat_lower': 375.72, 'yhat_upper': 408.55}, 14: {'yhat': 431.62, 'yhat_lower': 415.22, 'yhat_upper': 449.31}}",SELL,441.301,True,-8.75,5.83,11.66,
+FSLR,,253.34,3.05,19.28,48.28,Neutral,5.24,252.8324,256.529,,,-5.34,0.0,,,,,,Decreasing,0.0588,"Ticker
+SPY   -4.26
+dtype: float64",0.0571,3.3194,-3.2623,19.15,25.35,173.4368,281.3547,257.285,233.2153,above EMA20,"{3: {'yhat': 255.55, 'yhat_lower': 246.06, 'yhat_upper': 266.22}, 5: {'yhat': 255.11, 'yhat_lower': 245.34, 'yhat_upper': 265.7}, 7: {'yhat': 255.54, 'yhat_lower': 246.47, 'yhat_upper': 265.64}, 14: {'yhat': 256.94, 'yhat_lower': 247.73, 'yhat_upper': 267.09}}",SELL,259.5273,True,-7.86,5.24,10.48,
+AMD,,206.785,0.37,19.06,26.87,Oversold,8.17,233.1411,244.0707,,,-11.46,0.0,,,,,,Increasing,0.0417,"Ticker
+SPY   -10.38
+dtype: float64",-7.4114,-0.4725,-6.9389,9.49,12.75,152.4946,277.4464,243.6283,209.8101,"vol↑, RSI low","{3: {'yhat': 220.46, 'yhat_lower': 212.55, 'yhat_upper': 228.32}, 5: {'yhat': 219.96, 'yhat_lower': 211.22, 'yhat_upper': 227.98}, 7: {'yhat': 215.01, 'yhat_lower': 207.11, 'yhat_upper': 222.45}, 14: {'yhat': 209.5, 'yhat_lower': 201.83, 'yhat_upper': 217.76}}",SELL,256.4636,True,-12.26,8.17,16.34,
+PLTR,,157.8,1.32,18.61,28.49,Oversold,7.68,175.7639,182.3083,,,-11.31,0.0,,,,,,Increasing,0.0526,"Ticker
+SPY   -10.23
+dtype: float64",-7.1816,-3.6786,-3.503,10.15,8.35,119.0992,211.0708,182.1922,153.3137,"vol↑, RSI low","{3: {'yhat': 161.11, 'yhat_lower': 154.11, 'yhat_upper': 167.47}, 5: {'yhat': 161.01, 'yhat_lower': 154.51, 'yhat_upper': 167.41}, 7: {'yhat': 160.53, 'yhat_lower': 153.93, 'yhat_upper': 167.13}, 14: {'yhat': 163.74, 'yhat_lower': 157.03, 'yhat_upper': 170.75}}",SELL,180.9321,True,-11.52,7.68,15.36,
+SEDG,,34.91,5.5,15.35,43.71,Neutral,13.22,36.7748,37.301,,,-12.73,0.0,,,,,,Increasing,0.0833,"Ticker
+SPY   -11.65
+dtype: float64",-1.1088,-0.3599,-0.7489,19.41,19.99,22.4764,45.0846,37.181,29.2774,"vol↑, RSI low","{3: {'yhat': 34.96, 'yhat_lower': 32.66, 'yhat_upper': 37.23}, 5: {'yhat': 34.6, 'yhat_lower': 32.1, 'yhat_upper': 36.83}, 7: {'yhat': 34.37, 'yhat_lower': 32.01, 'yhat_upper': 36.83}, 14: {'yhat': 34.61, 'yhat_lower': 32.28, 'yhat_upper': 36.87}}",SELL,37.16,True,-19.83,13.22,26.44,
